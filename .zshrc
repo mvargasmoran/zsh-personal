@@ -16,10 +16,13 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
 
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 export PATH="/Users/marcos/.cargo/bin:$PATH"
 
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+source $(brew --prefix nvm)/nvm.sh

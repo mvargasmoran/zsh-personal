@@ -1,28 +1,21 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+#zmodload zsh/zprof
 
+# Git functions related to that
+# I actually use (aliases mostly) and 
 source ~/.config/zsh-personal/git-personal-aliases.zsh
+
+# ohmyzsh aliases that I've grown accostumed to
 source ~/.config/zsh-personal/general-personal-aliases.zsh
-#source ~/.config/zsh-personal/git-personal-aliases.zsh0
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
+# NVM yep, I still use it, I'm gonna check fvm soon
+export PATH=~/.nvm/versions/node/v14.16.1/bin:$PATH
+# Load NVM
 export NVM_DIR=~/.nvm
-
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="/Users/marcos/.cargo/bin:$PATH"
+[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh" --no-use
 
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# Enable substitution in the prompt.
+setopt prompt_subst
+source ~/.config/zsh-personal/modified-agnoster.zsh-theme
 
-source $(brew --prefix nvm)/nvm.sh
+#zprof

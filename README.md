@@ -35,11 +35,13 @@ I think I need a script to create symlinks to move .zshrc to home
   - An NVM slowness patch... it will suffice for now
   	just enter .zshrc and set your nvm director thingy
 ## Changes
+  - Removed FNM, and all it's dirty dirty stuff (replaced by: [n](https://github.com/tj/n))
+  - Tried and removed starship.rs (not rust enough)
+  - Removed powerlevel10k (super fast can't deal with almost no status line)
   - Removed ohmyzsh
 ## Trials
-  - Removed powerlevel10k
-  - Tried and removed starship.rs (not rust enough)
-  - Tried and removed 
+  - Trying zsh auto complete (I think it will doxx me)
+  - Trying Ranger
 
 ###### mandatory uwu
 ( UωU)∫

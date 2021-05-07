@@ -5,13 +5,13 @@ I'm done with oh-my-zsh after years
 
 Don't know why it got so slow, maybe it's my fault.
 so, until I find something flashy that does what I want or what I really do :
-[![Friendship ended](https://github.com/mvargasmoran/zsh-personal/raw/main/friendship-ended.png "Friendship ended")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/friendship-ended.png "Friendship ended")
+[![Friendship ended](https://github.com/mvargasmoran/zsh-personal/raw/main/img/friendship-ended.png "Friendship ended")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/img/friendship-ended.png "Friendship ended")
 
 ### What does it looks like?
 
-[![Classic Git Status Pic](https://github.com/mvargasmoran/zsh-personal/raw/main/mandatory-pic.png "Classic Git Status Pic")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/mandatory-pic.png "Classic Git Status Pic")
+[![Classic Git Status Pic](https://github.com/mvargasmoran/zsh-personal/raw/main/img/mandatory-pic.png "Classic Git Status Pic")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/img/mandatory-pic.png "Classic Git Status Pic")
 
-[![Error mark](https://github.com/mvargasmoran/zsh-personal/raw/main/mandatory-error-pic.png "Error mark")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/mandatory-error-pic.png "Error mark")
+[![Error mark](https://github.com/mvargasmoran/zsh-personal/raw/main/img/mandatory-error-pic.png "Error mark")](http://https://github.com/mvargasmoran/zsh-personal/raw/main/img/mandatory-error-pic.png "Error mark")
 
 ### what's missing?
 I think I need a script to create symlinks to move .zshrc to home

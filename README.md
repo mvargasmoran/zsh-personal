@@ -32,8 +32,6 @@ I think I need a script to create symlinks to move .zshrc to home
 [ohmyzsh git lib pieces](http://https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/git.zsh "ohmyzsh git lib pieces")
 	- git aliases, also curated from the plugin, I can't use them all
 [git plugin](http://https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git "git plugin")
-  - An NVM slowness patch... it will suffice for now
-  	just enter .zshrc and set your nvm director thingy
 ## Changes
   - Removed FNM, and all it's dirty dirty stuff (replaced by: [n](https://github.com/tj/n))
   - Tried and removed starship.rs (not rust enough)

@@ -71,6 +71,8 @@ alias gbsg='git bisect good'
 alias gbsr='git bisect reset'
 alias gbss='git bisect start'
 
+alias gundo='git reset --soft HEAD~1'
+alias gundoHard='git reset --hard HEAD~1'
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gcn!='git commit -v --no-edit --amend'

@@ -14,3 +14,5 @@ source ~/.config/zsh-personal/modified-agnoster.zsh-theme
 #zprof
 
 #alias luamake=/Users/marcos/Code/sumneko/lua-language-server/3rd/luamake/luamake
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

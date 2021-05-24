@@ -40,6 +40,8 @@ I think I need a script to create symlinks to move .zshrc to home
 ## Trials
   - Trying zsh auto complete (I think it will doxx me)
   - Trying Ranger
+  - Trying zsh-autosuggestions
+    https://github.com/zsh-users/zsh-autosuggestions
 
 ###### mandatory uwu
 ( UωU)∫

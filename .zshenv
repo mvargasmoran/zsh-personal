@@ -10,6 +10,7 @@ alias cdCode="~/Code"
 alias cdSvelte="~/Code/svelte"
 alias cdNvimConf="~/.config/nvim"
 alias cdZshPsnl="~/.config/zsh-personal"
+alias cdFoss="~/Code/nvimThings"
 
 #Console emacs workaround
 export PATH=$PATH:~/bashApps

@@ -28,3 +28,4 @@ fendedDirectory='~/.config/fended/'
 ln -s ~/.config/fended/.zshrc
 ln -s ~/.config/fended/.zshenv
 
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions

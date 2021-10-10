@@ -1,4 +1,10 @@
 alias g='git'
+
+alias gb='git branch'
+alias gbda='git branch --no-color --merged | command grep -vE "^([+*]|\s*($(git_main_branch)|$(git_develop_branch))\s*$)" | command xargs git branch -d 2>/dev/null'
+alias gbD='git branch -D'
+alias gbl='git blame -b -w'
+
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
 alias gcp='git cherry-pick'
@@ -9,9 +15,7 @@ alias ggpull='git pull origin "$(git_current_branch)"'
 alias ggpush='git push origin "$(git_current_branch)"'
 
 alias gcl='git clone --recurse-submodules'
-
 alias gca='git commit -v -a'
-
 alias gco='git checkout'
 gcm='git checkout $(git_main_branch)'
 

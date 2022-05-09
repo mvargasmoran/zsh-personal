@@ -20,12 +20,7 @@ cd ~/.config/fended
 git clone git@github.com:mvargasmoran/zsh-personal.git .
 cd ~/.config/fended
 
-mv ~/.config/fended/.zshrc ~/.zshrc
-mv ~/.config/fended/.zshenv ~/.zshenv
-
-
-fendedDirectory='~/.config/fended/'
-ln -s ~/.config/fended/.zshrc
-ln -s ~/.config/fended/.zshenv
+ln -s  ~/.config/fended/.zshrc ~/.zshrc
+ln -s ~/.config/fended/.zshenv ~/.zshenv
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions

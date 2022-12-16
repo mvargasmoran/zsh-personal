@@ -12,6 +12,7 @@ alias cdNvimConf="~/.config/nvim"
 alias cdZshPsnl="~/.config/zsh-personal"
 alias cdFoss="~/Code/nvimThings"
 alias cdTrain="~/Code/ReallySeriousTraining"
+alias cdRut="~/Code/rutahorro"
 
 #Console emacs workaround
 export PATH=$PATH:~/bashApps
@@ -22,6 +23,7 @@ alias suemacs="sudo ~/bashApps/emacs"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="~/.cargo/bin:$PATH"
+# export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 alias luamake=/Users/marcos/Code/sumneko/lua-language-server/3rd/luamake/luamake
 
@@ -30,4 +32,5 @@ timezsh() {
   for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
 
-
+# export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"

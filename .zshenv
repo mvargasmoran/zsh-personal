@@ -34,3 +34,5 @@ timezsh() {
 
 # export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
 # export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+# . "$HOME/.cargo/env"
+source "$HOME/.cargo/env"

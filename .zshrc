@@ -21,6 +21,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # total neckbeard crap
 nerdfetch
+figlet "Inspiring quote" | lolcat
 
 #set up fzf key bindings
 source <(fzf --zsh)
@@ -28,3 +29,4 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"

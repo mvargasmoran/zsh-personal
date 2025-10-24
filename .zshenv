@@ -13,6 +13,8 @@ alias cdZshPsnl="~/.config/zsh-personal"
 alias cdFoss="~/Code/nvimThings"
 alias cdTrain="~/Code/ReallySeriousTraining"
 alias cdRut="~/Code/rutahorro"
+alias cdConf="~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023"
+alias cdNeovimLive="~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023"
 
 #Console emacs workaround
 export PATH=$PATH:~/bashApps

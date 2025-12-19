@@ -12,19 +12,16 @@ alias cdNvimConf="~/.config/nvim"
 alias cdZshPsnl="~/.config/zsh-personal"
 alias cdFoss="~/Code/nvimThings"
 alias cdTrain="~/Code/ReallySeriousTraining"
-alias cdRut="~/Code/rutahorro"
-alias cdConf="~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023"
 alias cdNeovimLive="~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023"
+alias cdYTD="~/ytdownloads"
+alias cdMTG="~/mtg"
 
 #Console emacs workaround
-export PATH=$PATH:~/bashApps
 
-alias uemacs="~/bashApps/emacs"
-
-alias suemacs="sudo ~/bashApps/emacs"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="~/.cargo/bin:$PATH"
+# export PATH="~/.local/bin/:$PATH"
 # export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 alias luamake=/Users/marcos/Code/sumneko/lua-language-server/3rd/luamake/luamake

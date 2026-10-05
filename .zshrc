@@ -30,3 +30,6 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+# opencode
+export PATH=/Users/marcosvargasmoran/.opencode/bin:$PATH

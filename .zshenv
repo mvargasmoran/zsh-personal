@@ -6,15 +6,16 @@ export PATH=$PATH:~/.composer/vendor/bin
 export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 
 #add some frequent directories shortcuts
-alias cdCode="~/Code"
-alias cdSvelte="~/Code/svelte"
-alias cdNvimConf="~/.config/nvim"
-alias cdZshPsnl="~/.config/zsh-personal"
-alias cdFoss="~/Code/nvimThings"
-alias cdTrain="~/Code/ReallySeriousTraining"
-alias cdNeovimLive="~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023"
-alias cdYTD="~/ytdownloads"
-alias cdMTG="~/mtg"
+alias cdCode='cd ~/Code'
+alias cdConf='cd ~/.config'
+alias cdNvimConf='cd ~/.config/nvim'
+alias cdZshPsnl='cd ~/.config/zsh-personal'
+alias cdSvelte='cd ~/Code/svelte'
+alias cdFoss='cd ~/Code/nvimThings'
+alias cdTrain='cd ~/Code/ReallySeriousTraining'
+alias cdNeovimLive='cd ~/Code/neovimconf/neovimconf-2024/NeoVimconf-site-2023'
+alias cdYTD='cd ~/ytdownloads'
+alias cdMTG='cd ~/mtg'
 
 #Console emacs workaround
 

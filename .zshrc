@@ -1,5 +1,9 @@
 #zmodload zsh/zprof
 
+#USER: timestamp for the 'loaded in' echo at the bottom
+zmodload zsh/datetime
+typeset -g ZSH_LOAD_START=$EPOCHREALTIME
+
 # Git functions related to that
 # I actually use (aliases mostly) and
 source ~/.config/zsh-personal/git-personal-aliases.zsh
@@ -13,15 +17,21 @@ source ~/.config/zsh-personal/modified-agnoster.zsh-theme
 
 #zprof
 
-#alias luamake=/Users/marcos/Code/sumneko/lua-language-server/3rd/luamake/luamake
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # total neckbeard crap
-nerdfetch
-figlet "Inspiring quote" | lolcat
+#USER: stand-in for lolcat, which pays a ruby VM startup on every shell
+rainbow() {
+  local i=0 line
+  while IFS= read -r line || [[ -n $line ]]; do
+    printf '\e[38;5;%dm%s\e[0m\n' $(( 17 + (i++ * 7) % 40 )) "$line"
+  done
+}
+
+fastfetch
+figlet "Inspiring quote" | rainbow
 
 #set up fzf key bindings
 source <(fzf --zsh)
@@ -33,3 +43,6 @@ export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # opencode
 export PATH=/Users/marcosvargasmoran/.opencode/bin:$PATH
+
+#USER: how long did all that take?
+printf ' loaded in %dms\n' $(( (EPOCHREALTIME - ZSH_LOAD_START) * 1000 ))

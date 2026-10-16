@@ -1,4 +1,5 @@
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+#USER: keep PATH free of duplicate entries when zsh shells nest
+typeset -U path
 
 #USER: use composer installed scripts easily
 export PATH=$PATH:~/.composer/vendor/bin
@@ -21,11 +22,8 @@ alias cdMTG='cd ~/mtg'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="~/.cargo/bin:$PATH"
-# export PATH="~/.local/bin/:$PATH"
-# export PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
-alias luamake=/Users/marcos/Code/sumneko/lua-language-server/3rd/luamake/luamake
 
 timezsh() {
   shell=${1-$SHELL}
